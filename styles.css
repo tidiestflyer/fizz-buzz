@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.header {
+    background-color: rgb(153, 177, 149);
+    min-width:fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer {
+    background-color: rgb(153, 177, 149);
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(84, 85, 85);
+}
+
+.center {
+    background-color: rgb(182, 161, 146);
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+.sidebar {
+    background-image: linear-gradient(to bottom, rgb(136, 163, 125), rgb(192, 192, 169));
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    border-radius: 0px 200px 200px 0px;
+}
+
+.game {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.userInput {
+    width: 200px;
+    height: 2o0px;
+    text-align: center;
+    font-size: 150px;
+    box-shadow: rgb(122, 71, 71) 5px 5px;
+}
+
+.game h1 {
+    font-size: 50px;
+    text-shadow: rgb(204, 203, 203) -2px -2px;
+    margin: 5px;
+}
+
+.game p {
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 25px;
+}
