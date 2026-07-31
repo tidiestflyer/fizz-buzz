@@ -1,5 +1,5 @@
 # fizz-buzz
-Fizz buzz is a group word game for childre to teach the about division.
+Fizz buzz is a group word game for children to teach the about division.
 
 # Rules
 - Numbers divisable by 3 should be returned as "Fizz".
